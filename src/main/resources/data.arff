@@ -1,0 +1,11 @@
+@relation grocery
+
+@attribute bread {t, f}
+@attribute milk {t, f}
+@attribute butter {t, f}
+@attribute beer {t, f}
+@attribute diapers {t, f}
+
+@data
+t, t, f, f, f
+f, t, t, f, t
